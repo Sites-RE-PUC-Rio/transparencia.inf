@@ -1,0 +1,144 @@
+.linkContador a{
+	text-decoration: none; 
+	font-weight:bold;
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #000080;
+	line-height:150%;
+
+}
+
+
+.linkContador a:visited{
+	text-decoration: none
+}
+
+
+.linkContador a:hover{
+	color: #FF0000;
+}
+
+.linkIdioma a{
+	text-decoration: none; 
+	font-weight:bold;
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #1E90FF;
+	line-height:150%;
+}
+
+.linkIdioma a:visited{
+	text-decoration: none
+}
+
+.linkIdioma a:hover{
+	color: #FF0000;
+}
+.linkNormal a {
+	text-decoration: underline; 
+	font-weight:bold;
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	color: #1E90FF;
+	line-height:150%;
+}
+
+.linkNormal a:visited{
+	text-decoration: underline
+}
+
+.linkNormal a:hover{
+	color: #FF0000;
+}
+
+
+.artigo{
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #0f0000;
+	line-height:150%;
+}
+.MenArtigo{
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 17px;
+	color: #003366;
+}
+.MenElo{
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	color: #003366;
+}
+
+hr {
+	color: #BEBEBE;
+	background-color: #BEBEBE;
+	height: 1px;
+	width: 350px;
+}
+
+.seta {
+	font-weight:bold;
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #1E90FF;
+	line-height:150%;
+}
+
+
+.TextoExplicacao{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-style: normal;
+	font-size: 13px;
+	color: #000000;
+}
+
+.Livros{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	color: #000000;
+	line-height:150%;
+}
+
+.TextoTransp{
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #000000;
+	line-height:150%;
+}
+.ReferenciaTexto {
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #000000;
+	line-height:150%;
+
+
+}
+
+.rodape {
+	font-family: tahoma, helvetica, sans-serif;
+	font-style: normal;
+	font-size: 10px;
+	color: #000000;
+	line-height:150%;
+}
+
+.ExtTabela {
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color:#87CEEB;
+	border-right-style: solid;
+	border-right-width: 5px;
+	border-right-color:#87CEEB;
+	
+}

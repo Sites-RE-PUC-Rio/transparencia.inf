@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    <!--
+    body {
+        margin-left: 4px;
+        margin-top: 0px;
+        margin-right: 4px;
+        margin-bottom: 3px;
+    }
+    -->
+    </style>
+    <script language="javascript">
+
+        var selected_item = null ;
+        var regular_color ="#eff5ff";
+        var select_color  ="#f5f5f5";
+
+        function select(tr, href)
+        {
+            if (tr.bgColor == regular_color)
+            {
+                tr.bgColor = select_color ;
+                if (null != selected_item)
+                {
+                    selected_item.bgColor = regular_color ;
+                }
+                selected_item = tr ;
+            }
+            tr.bgColor = select_color ;
+            parent.frames[2].location = href ;
+
+            return true ;
+        }
+    </script>
+</head>
+<body>
+    <table cellpading="0" cellspacing="3" width="100%" valign="top">
+        <tr bgcolor="#E0EAFF" class="cinza14" align="center">
+            <td>Processos</td>
+        </tr>
+        <tr id="visualize_processes" bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'process_list.php');">
+            <td>&nbsp;&nbsp;Visualizar</td>
+        </tr>
+        <tr bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'process_set.php?mode=create');">
+            <td>&nbsp;&nbsp;Cadastrar</td>
+        </tr>
+        <tr bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'reuse_process_set.php');">
+            <td>&nbsp;&nbsp;Reutilização</td>
+        </tr>
+        <tr bgcolor="#E0EAFF" class="cinza14" align="center">
+            <td>Tabelas Auxiliares</td>
+        </tr>
+        <tr bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'aux_tables_list.html');">
+            <td>&nbsp;&nbsp;Visualizar</td>
+        </tr>
+        <tr bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'aux_tables_set.html');">
+            <td>&nbsp;&nbsp;Cadastrar</td>
+        </tr>
+        <tr bgcolor="#E0EAFF" class="cinza14" align="center">
+            <td>Admin</td>
+        </tr>
+        <tr bgcolor="#EFF5FF" class="cinza12" align="left" onclick="javascript:return select(this, 'logout.php');">
+            <td>&nbsp;&nbsp;Logout</td>
+        </tr>
+    </table>
+    <script language="javascript">
+        select(document.getElementById('visualize_processes'), 'process_list.php');
+    </script>
+</body>
+</html>

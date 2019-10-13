@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>CGILua's Test Script</title>
+</head>
+<body bgcolor="#ffffff">
+<br>
+
+<h1 align="center">CGILua's Test Script</h1>
+
+<div align="center">
+<em>This script will only execute if interpreted by 
+<a href="http://www.tecgraf.puc-rio.br/cgilua/">CGILua</a><br>
+(use a URL like: <code>http://host/scripts/cgilua.exe/test.html</code> on Windows systems or<br>
+<code>http://host/cgi-bin/cgilua/test.html</code> on Unix systems)</em>
+</div>
+<br>
+
+<!-- ****************************************************************************** -->
+
+<br><hr noshade><br>
+<h3>Some CGI's environment variables:</h3>
+
+<!--$$
+
+env = {
+  'GATEWAY_INTERFACE',
+  'SERVER_NAME',
+  'SERVER_SOFTWARE',
+  'SERVER_PROTOCOL',
+  'SERVER_PORT',
+  'REQUEST_METHOD',
+  'PATH_INFO',
+  'PATH_TRANSLATED',
+  'SCRIPT_NAME',
+  'QUERY_STRING',
+  'REMOTE_HOST',
+  'REMOTE_ADDR',
+  'AUTH_TYPE',
+  'REMOTE_USER',
+  'CONTENT_TYPE',
+  'CONTENT_LENGTH',
+  'HTTP_ACCEPT',
+  'HTTP_USER_AGENT',
+  'HTTP_REFERER',
+}
+
+$$-->
+
+<!--$$ LOOP start='i=1', test='env[i]', action='i=i+1' $$-->
+
+$|env[i]|$ = $|getenv( env[i] )|$ <br>
+
+<!--$$ ENDLOOP $$-->
+
+<!-- ****************************************************************************** -->
+
+<br><hr noshade><br>
+<h3>Contents of CGILua table <code>cgi</code> (data from URL or HTML form)</h3>
+
+<!--$$ LOOP start='field,value = next(cgi,nil)',
+            test='field ~= nil', 
+            action='field,value = next(cgi,field)' $$-->
+
+cgi.$|field|$ = "$|value|$" <br>
+
+<!--$$ ENDLOOP $$-->
+
+<!-- ****************************************************************************** -->
+
+<br><hr noshade><br>
+<h3>HTML Form - Submiting leads to this same document with the form data decoded</h3>
+
+<form method=POST action="$|cgilua.mkurl( "test.html")|$">
+
+<table cellpadding=10>
+
+<tr>
+  <td>Email:</td>
+  <td><input type="text" name="email" value="user@domain"></td>
+</tr>
+
+<tr>
+  <td>Secret:</td> 
+  <td><input type="password" name="secret" maxlength="8"></td>
+</tr>
+
+<tr>
+  <td>Choose an option (can be both or none):</td>
+  <td><input type="checkbox" name="optA">Option A
+      <input type="checkbox" name="optB" checked>Option B </td>
+</tr>
+
+<tr>
+  <td>Choose an option (just one of the group):</td>
+  <td><input type="radio" name="color" value="white">White
+      <input type="radio" name="color" value="blue" checked>Deep Blue
+      <input type="radio" name="color" value="green">Green</td>
+</tr>
+
+<tr>
+  <td>Free Text:</td>
+  <td><textarea name="freetext" rows=3 cols=40>
+      ..just type something..
+      </textarea></td>
+</tr>
+
+<tr>
+  <td>Select from the list:</td>
+  <td><select name="list">
+      <option value="I">Section I
+      <option value="II" selected>Section II
+      <option value="III">Section III
+      <option value="IV">Section IV
+      <option value="V">Section V
+      </select></td>
+</tr>
+
+<tr>
+  <td colspan=2 align="center">
+
+  <input type="hidden" name="info_hidden" value="helps mantaining state">
+
+  <input type="submit" name="pressed_submit1" value="Submit form (1)">
+  <input type="submit" name="pressed_submit2" value="Submit form (2)">
+
+  <input type="reset" value="Clean All"></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>

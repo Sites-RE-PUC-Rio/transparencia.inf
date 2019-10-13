@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<script language="JavaScript">
+<!--
+function TestarBranco(form)
+{ 
+login = form.login.value
+senha = form.senha.value
+
+  if ((login == ""))
+    { alert ("Por favor, digite o seu Login.") 
+      form.login.focus() 
+      return false;} 
+  if ((senha == ""))
+    { alert ("Por favor, selecione a sua senha.") 
+      form.senha.focus() 
+      return false;} 
+}
+
+function TestarEmail(form)
+{
+  email = form.emailto.value
+
+  if (email == "") {
+	alert ("Por favor, digite o seu e-mail.")
+	form.emailto.focus()
+	return false;}
+}
+
+//-->
+</SCRIPT>
+
+<body bgcolor="#FFFFFF" topmargin="0">
+<table width="100%" border="0" height="27" background="fig25.GIF">
+  <tr valign="top"> 
+    <td height="31"> 
+      <div align="left"> <font size="4"><font face="Verdana, Arial, Helvetica, sans-serif"><b>Canal 
+        Livre<font size="3"> </font></b></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="100%" border="0">
+  <tr valign="top"> 
+    <td height="329" width="57%" valign="top"> 
+      <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="3"></font></p>
+      <table width="58%" border="0" height="96" align="center">
+        <tr valign="top"> 
+          <td height="154"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Entre 
+            com login e senha:</font> 
+            <form name="form2" method="post" action="clivre2.asp" >
+              <table width="87%" border="0" align="center">
+                <tr> 
+                  <td width="27%" height="30" background="fundotab.gif"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">login:</font></td>
+                  <td width="37%" height="30" background="fundotab.gif"> 
+                    <input type="text" name="login" size="16" maxlength="12">
+                  </td>
+                  <td width="36%" height="30">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td width="27%" background="fundotab.gif"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">senha:</font></td>
+                  <td width="37%" background="fundotab.gif"> 
+                    <input type="password" name="senha" size="16" maxlength="12">
+                  </td>
+                  <td width="36%"> 
+                    <input type="submit" onClick="return TestarBranco(this.form);" 
+				name="Submit" value="Confirmar">
+                  </td>
+                </tr>
+              </table>
+              <div align="right"> </div>
+            </form>
+            <p align="center">&nbsp;</p>
+      </td>
+        </tr>
+      </table>
+      <table width="37%" border="1" background="figs/figteste.GIF" align="center">
+        <tr valign="top"> 
+          <td height="129" width="56%"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Esqueceu 
+            sua senha?</font><br>
+              <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Enviaremos 
+              um e-mail para lembrá-lo:</font><br>
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="1">(coloque 
+            o seu e-mail de cadastro)</font><font face="Courier New, Courier, mono"> 
+            </font> 
+            <form name="form1" action="esquecisenha.asp"  method="post">
+              <table width="100%" border="0" height="34">
+                <tr> 
+                  <td height="25" valign="middle" width="26%"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">email</font></td>
+                  <td height="25" valign="middle" width="51%"> 
+                    <input type="text" name="emailto" size="25" maxlength="45">
+                  </td>
+                  <td height="25" valign="middle" width="23%"> 
+                    <div align="left"> 
+                      <input type="submit" onClick="return TestarEmail(this.form);" name="enviar" value="Enviar">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+      <div align="center"></div>
+      </td>
+    <td height="329" width="7%">&nbsp;</td>
+    <td height="329" width="36%"><a href="cadastro0.asp"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Cadastre-se!</font></a><br>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      <p align="justify"> Efetue seu cadastro para o canal livre!</p>
+      <p align="justify">&nbsp;</p>
+      </font> 
+      <p><a href="alterasenha.asp"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Alterar 
+        senha</font></a></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

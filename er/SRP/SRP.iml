@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4" relativePaths="true" type="JAVA_MODULE">
+  <component name="ModuleRootManager" />
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntryProperties />
+  </component>
+  <component name="copyright">
+    <Base>
+      <setting name="state" value="1" />
+    </Base>
+    <JavaOptions>
+      <option name="body" value="/*&#10; * Copyright (c) $today.year Your Corporation. All Rights Reserved.&#10; */" />
+      <option name="location" value="1" />
+      <option name="remove" value="true" />
+      <option name="replace" value="3" />
+    </JavaOptions>
+  </component>
+</module>
+

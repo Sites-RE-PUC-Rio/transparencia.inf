@@ -1,0 +1,76 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta HTTP-EQUIV="Content-Language" CONTENT="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Inscrições WER03</title>
+</head>
+<script language="JavaScript">
+<!--
+function TestarBranco(form)
+{
+name = form.identificacao_FullName.value;
+email = form.Contact_Email.value;
+
+  if ((name == ""))
+    { alert ("Por favor, digite o seu Nome.") ;
+      form.identificacao_FullName.focus() ;
+      return false;
+ }
+  if  (email == "")
+    {
+alert ("Por favor, digite o seu e-mail.") ;
+      form.Contact_Email.focus() ;
+      return false;
+ }
+}
+
+//-->
+</SCRIPT>
+
+
+<body>
+
+<h1>Inscrições WER03&nbsp;</h1>
+<hr>
+<form METHOD="POST" ACTION="scripts/inclusaoCadastro.php">
+  <dl>
+    <dt><font size="4">Dados pessoais:</font>
+    <dd>
+      <pre><em>            Nome </em><input TYPE="TEXT" NAME="identificacao_FullName" SIZE="35">
+            <i>Sexo</i> <input TYPE="RADIO" NAME="identificacao_Sex" VALUE="Feminino" CHECKED>fem <input TYPE="RADIO" NAME="identificacao_Sex" VALUE="Masculino">masc
+
+</pre>
+    <dt><font size="4">Endereço para contato:</font>
+    <dd>
+      <pre><em>    Instituição  </em><input TYPE="TEXT" NAME="Contact_Organization" SIZE="35">
+<em>       Endereço  </em><input TYPE="TEXT" NAME="Contact_StreetAddress" SIZE="35">
+<em>         Cidade  </em><input TYPE="TEXT" NAME="Contact_City" SIZE="35">
+<em>         Estado  </em><input TYPE="TEXT" NAME="Contact_State" SIZE="35">
+<em>            CEP  </em><input TYPE="TEXT" NAME="Contact_ZipCode" SIZE="12" MAXLENGTH="12">
+<em>           País  </em><input TYPE="TEXT" NAME="Contact_Country" SIZE="25">
+<em>          E-mail </em><input TYPE="TEXT" NAME="Contact_Email" SIZE="25">
+</pre>
+    <dt><font size="4">Categoria e valor da inscrição:</font>
+    <dd>
+      <p><select NAME="categoria">
+        <option value="Profissional - R$ 150,00" SELECTED>Profissional - R$ 150,00
+        <option value="Docente - R$ 80,00">Docente - R$ 80,00
+        <option value="Estudante - R$ 30,00">Estudante - R$ 30,00
+      </select><br>
+      </p>
+  </dl>
+  <input TYPE="SUBMIT" onClick="return TestarBranco(this.form);" VALUE="Enviar" > <input TYPE="RESET" VALUE="Limpar">
+</form>
+<hr>
+<h5>Miriam Sayão<br>
+Copyright © 2003 [PUC-Rio]. All rights reserved.<br>
+Revised: <!--webbot bot="TimeStamp" S-Type="EDITED"
+S-Format="%B %d, %Y" startspan -->August 25, 2003<!--webbot bot="TimeStamp" i-CheckSum="21884" endspan -->
+</h5>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1046{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\*\listtable{\list\listtemplateid-37034856\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-283\li283 }{\listname ;}\listid851070643}}{\*\listoverridetable{\listoverride\listid851070643\listoverridecount0\ls1}{\listoverride\listid851070643\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-283\li283 }}\ls2}{\listoverride\listid851070643\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-283\li283 }}\ls3}{\listoverride\listid851070643\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-283\li283 }}\ls4}{\listoverride\listid851070643\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent283{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-283\li283 }}\ls5}}{\info{\title Meta e Objetivos }{\author Francisco A. C. Pinheiro}{\operator Francisco A. C. Pinheiro}{\creatim\yr1998\mo5\dy22\hr19\min50}{\revtim\yr1998\mo5\dy22\hr20\min29}{\version3}{\edmins6}{\nofpages4}{\nofwords1455}{\nofchars8294}{\*\company UNB}{\nofcharsws10185}{\vern73}}\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0{\*\template C:\\fupCDT\\temp\\perres.dot}\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc\nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid {\b\fs36 Ministério da Ciência e Tecnologia
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\b\fs36 PADCT III
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\fs24 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\b\fs32 Plataforma em Engenharia de Requisitos
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\b\fs32 Resumo do Projeto
+\par 
+\par 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\fs24 Meta e Objetivos 
+\par }{\fs24 
+\par A meta deste projeto, é  a seguinte: 
+\par 
+\par "Estabelecer bases para o aumento da qualidade dos processos de produção  de software através de cooperação entre universidades e empresas  com ênfase na utilização  da Engenharia de Requisitos". 
+\par 
+\par Esta meta reflete a filosofia descrita no item 1.2.4.d do manual de preenchimento FUP/CDT no que se refere ao estabelecimento de meta
+\par final  e única por cada projeto.
+\par 
+\par A consecução desta meta poderá ser mensurada quantitativamente pela efetiva elaboração de propostas de projetos cooperativos e pela  produção, ao final da plataforma, de documentos contendo: 
+\par 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \fi-283\li283\nowidctlpar\widctlpar{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\ls1\adjustright {\fs24 Idéia geral dos problemas enfrentados por diferentes organizações nacionais no que diz  respeito a elicitação, especificação, análise e gerência de requisitos. 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \fi-283\li283\nowidctlpar\widctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\ls2\adjustright {\fs24 Avaliação da situação nacional com relação às pesquisas em Engenharia de Requisitos. 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \fi-283\li283\nowidctlpar\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\ls3\adjustright {\fs24 Avaliação das iniciativas anteriores de colaboração e identificação de interesses comuns entre indústria e instituições de pesquisa. 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \fi-283\li283\nowidctlpar\widctlpar{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\ls4\adjustright {\fs24 Proposição de mecanismos de divulgação para orientar os avanços e iniciativas  existentes no Brasil. 
+\par {\pntext\pard\plain\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \fi-283\li283\nowidctlpar\widctlpar{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent283\pnhang{\pntxta .}}\ls5\adjustright {\fs24 Método e instrumentos de avaliação que poderão ser reutilizados em outras organizações  de modo a diagnosticar problemas no processo de produção de software.
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 
+\par A plataforma procurará dar ênfase ao trabalho cooperativo entre os integrantes, tanto da indústria como da universidade de modo que se possa efetivamente propor projetos cooperativos para o  futuro.  Confiamos que a plataforma será extremamente importante para propor um projeto cooperativo em bases mais bem definidas e de comum interesse entre as partes envolvidas.  Além disso,  os resultados da plataforma listados acima serão importantes para termos um melhor conhecimento dos problemas enfrentados pelas organizações nacionais e da possibilidade da cooperação com as instituições de pesquisa para minorar esses problemas. 
+\par 
+\par }{\b\fs24 Caracterização do problema 
+\par }{\fs24 
+\par A crise do software continua.  Apesar de hoje desenvolvermos mais software e software cada vez mais sofisticados é também verdade que problemas no processo de produção ainda continuam trazendo enormes prejuízos  para os envolvidos.  As colunas }{\i\fs24 Risk}{\fs24  da }{\i\fs24 Communications of the ACM}{\fs24  e da }{\i\fs24 ACM Software Engineering Notes}{\fs24  continuam a publicar os problemas resultantes do emprego de software construído sem o devido cuidado.  Muitos desses problemas, infelizmente, levam a perdas de vidas humanas.  Raramente esses problemas vem a público, como o caso do Sistema de Ambulância de Londres e o caso do Aeroporto de Denver, que ganharam cobertura nacional de TV, no Reino Unido e nos Estados Unidos respectivamente.  
+\par 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 Central a alguns dos problemas decorrentes de falhas no processo de produção ou manutenção de software está  o fato da  precariedade dos processos de produção empregados, principalmente pela não observância aos princípios da Engenharia de Requisitos.  Como essa disciplina trata as condições iniciais para a construção ou evolução de um software, é fundamental que o processo de produção de software procure observa-la.   Pamela Zave, define a Engenharia de Requisitos como: 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\i\fs24 Requirements engineering is the branch of software engineering 
+\par concerned with the real-world goals for, functions of, and constraints 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\i\fs24 on software systems.  }{\fs24 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24  
+\par Pamela também observa que \ldblquote }{\i\fs24 Of all areas in which computer scientists do research, requirements engineering is probably the most informal, interdisciplinary and subjective}{\fs24 \rdblquote .   Exatamente por isso,  durante muito tempo,  as atividades fundamentais da Engenharia de Requisitos: elicitação, especificação, análise e gerência ficaram encobertas pelo nome geral de análise de sistemas onde os profissionais e acadêmicos davam ênfase,  quase que exclusiva,  a tarefa de especificação, em detrimento principalmente da elicitação e da gerência.  A criação da área em 1993 com a primeira conferência RE (}{\i\fs24 IEEE International Symposium on Requirements Engineering}{\fs24 ), veio a atentar para este fato e a de procurar ser  uma disciplina, como bem frisou Zave, com uma característica  multidisciplinar.  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 Hoje existe,  cada vez mais,  um entendimento mútuo entre profissionais e pesquisadores sobre o papel da Engenharia de Requisitos no processo de produção de software.  Levantamentos recentes da comunidade européia bem como do }{\i\fs24 Software Engineering Institute}{\fs24   (SEI) nos Estados Unidos apontam para problemas relacionados com Engenharia de Requisitos como os que são os mais importantes.  Um questionário distribuído para 3805 empresas na Europa apontou os seguintes maiores problemas para os profissionais: especificação de requisitos (53%), gerência de requisitos (43%), documentação (36%) e teste (35%).  Nos Estados Unidos a gerência de requisitos é vista como um dos principais problemas a serem superados para que as organizações cheguem ao nível 2 de maturidade segundo o modelo CMM (}{\i\fs24 Capability Maturity Model}{\fs24 ) do SEI, sendo que o próprio SEI disponibilizou recentemente um pacote que ajuda a transferência de tecnologia em Engenharia de Requisitos para facilitar a certificação das empresas.
+\par No Brasil não existem dados para caracterizar essa  situação.  Os dados que existem são fragmentados e de maneira geral apresentam   o processo de produção de software embutido no emprego de Tecnologias de Informação para apoio à Sistemas de Informação.  Essa plataforma que estamos propondo é pioneira nesse sentido e esperamos que seja seguida de outras, para que possamos conhecer de maneira mais realista a situação, principalmente no que se refere a Engenharia de Requisitos.   Não acreditamos que o caso brasileiro seja bastante diverso do apontado acima, principalmente dado o estágio de desenvolvimento do país na produção de software, principalmente nos software de apoio a Sistemas de Informação, ou mais comumente chamados de aplicativos. 
+\par 
+\par }{\b\fs24 Justificativas 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 
+\par Os itens abaixo refletem as principais justificativas para a plataforma proposta. 
+\par 
+\par 1) A indústria de software, incluindo as organizações cujas estruturas de desenvolvimento são voltadas para aplicações internas, é um dos setores econômicos com grande potencial de crescimento. 
+\par 
+\par 2) A fase de requisitos é a etapa do desenvolvimento onde a identificação, prevenção e correção de erros de software apresenta uma das menores relações de custo/benefício de todo o processo de desenvolvimento. 
+\par   
+\par 3) A fase de requisitos é imprescindível para qualquer processo de produção e evolução de software.
+\par 
+\par 4) A superação das dificuldades em tratar os problemas relativos a esta fase exige a adoção sistemática de métodos,  técnicas e ferramentas avançadas que, mesmo quando disponíveis, são de difícil utilização por parte das empresas. Em geral os métodos e técnicas são utilizados apenas superficialmente, como uma forma alternativa de notação para facilitar a comunicação, e não são explorados quanto ao verdadeiro objetivo de definir precisamente os requisitos do sistema e prover uma base sólida para o posterior desenvolvimento. 
+\par 
+\par 5) Existe uma comunidade acadêmica em expansão devotada ao estudo dos problemas relativos à fase de requisitos.  Podemos citar que o primeiro encontro de Engenharia de Requisitos acontecerá em Outubro de 1998 (www.inf.puc-rio.br/~wer98) e certamente será mais uma maneira de difundirmos o trabalho alvo dessa plataforma.
+\par 
+\par 6) A análise e avaliação das demandas e esforços destes dois grupos, empresas e academia, é necessária para a superação de barreiras, estabelecimento de políticas de longo prazo, incentivo ao esforço cooperativo na solução de problemas comuns e para a promoção de projetos de pesquisas  cooperativos. 
+\par 
+\par }{\b\fs24 Contribuição tecnológica}{\fs24  
+\par 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 A contribuição tecnológica estará baseada no fato de que as proposições, orientações e iniciativas provenientes da plataforma devem enfocar o estado da arte na área de Engenharia de Requisitos, adequando-o às características brasileiras.  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 Voltamos a ressaltar que nossa proposta mesmo centrada em dois grandes usuários e desenvolvedores de software, Banco do Brasil e SERPRO, procurará dentro do possível cobrir com questionários outras organizações.  O fato de centrarmos em dois grandes usuários/desenvolvedores é importante porque aumenta nossas chances de conseguir estabelecer um projeto cooperativo futuro com base nos resultados da plataforma.  Um resultado importante que pode ser iniciado com essa plataforma e continuado em projetos futuros é a manutenção de um sítio na rede para receber questionários e disponibilizar informações sobre pesquisas e uso da Engenharia de Requisitos.
+\par 
+\par  
+\par 
+\par }{\b\fs24 Resultados esperados 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\fs24 
+\par O principal resultado, conforme descrito no item 1.1 do termo de referência do edital, é: 
+\par 
+\par 1) elaboração de projetos cooperativos entre os parceiros. 
+\par 
+\par Um forte indicador da possibilidade de consecução deste resultado são as várias experiências anteriores de colaboração direta e indireta entre alguns dos parceiros deste projeto. Como resultados adicionais  estão previstos: 
+\par 
+\par a) Elaboração de um documento contendo as necessidades identificadas do setor produtivo e as áreas de  pesquisas atualmente contempladas pelas instituições acadêmicas, com a conseqüente identificação dos  fatores de convergência e estabelecimento de prioridades. 
+\par 
+\par b) Elaboração de um documento contendo as avaliações, discussões, dados utilizados e propostas de perspectivas para o futuro, contemplando um prazo de dez anos. 
+\par 
+\par c) Implantação de um repositório  de informações, baseada na rede para servir como ponto de coleta das informações (questionário) sobre o uso da Engenharia de Requisitos bem como para disseminar as tabulações e análises resultantes da coleta. 
+\par 
+\par }{\b\fs24 Aproveitamento dos resultados 
+\par }{\fs24 
+\par Excluindo-se os documentos que poderão servir de base para a feitura de um projeto cooperativo entre universidades e empresas envolvidas nessa plataforma, todos  os documentos serão disponibilizados, via rede, para uso da comunidade em geral.  Um bom exemplo disso é o próprio sítio do projeto (http://www.cic.unb.br/~facp/per/perhome.htm) que estamos submetendo.
+\par }}

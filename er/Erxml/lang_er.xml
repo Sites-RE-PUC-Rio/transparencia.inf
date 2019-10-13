@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="frame_topo.htm"?>
+<!DOCTYPE lang [
+
+  <!ELEMENT lang (texto)>
+  <!ELEMENT texto (port|ing)>
+  <!ELEMENT port  (#PCDATA)>
+  <!ELEMENT ing   (#PCDATA)>
+  
+  <!ENTITY eacute "&#x00e9;">
+  <!ENTITY iacute "&#x00ed;">
+  <!ENTITY ecirc "&#x00ea;">
+  <!ENTITY aacute "&#x00e1;">
+  <!ENTITY ccedil "&#x00e7;">
+  <!ENTITY atilde "&#x00e3;">
+  <!ENTITY otilde "&#x00f5;">
+  <!ENTITY oacute "&#x00f3;">
+  <!ENTITY uacute "&#x00fa;">
+  <!ENTITY acute "&#x00b4;">
+  <!ENTITY nbsp "&#x00a0;">
+
+  <!ATTLIST texto id ID #REQUIRED>
+]>
+<lang> 
+<!-- Figura do frame superior -->
+ <texto id="001">
+   <port>"<img src='Barra22.gif' width='694' height='57' align='left'/>"</port>
+   <ing><img src="barEng2.gif" width="694" height="57" align="left"/></ing>
+ </texto>
+
+<!-- Frame esquerdo (menu) -->
+ <texto id="002">
+   <port>O que &eacute;?</port>
+   <ing>What is?</ing>
+ </texto>
+
+ <texto id="003">
+   <port>Mundo de Requisitos</port>
+   <ing>World of Requirements</ing>
+ </texto>
+
+ <texto id="004">
+   <port>Projeto PER</port>
+   <ing>PER Project</ing>
+ </texto>
+ 
+ <texto id="005">
+   <port>Not&iacute;cias</port>
+   <ing>News</ing>
+ </texto>
+
+ <texto id="006">
+   <port>Canal livre</port>
+   <ing>Free Cannel</ing>
+ </texto>
+
+ <texto id="007">
+   <port>Principal</port>
+   <ing>Main Page</ing>
+ </texto>
+
+ <texto id="008">
+   <port>Fale Conosco!</port>
+   <ing>Talk to us!</ing>
+ </texto>
+ 
+ <!-- Frame principal - pagina principal (frame_central.htm) -->
+ <texto id="009">
+   <port>Objetivo do Portal</port>
+   <ing>Website Goals</ing>
+ </texto>
+
+ <texto id="010">
+   <port>&nbsp;&nbsp;Este portal &eacute; uma refer&ecirc;ncia b&aacute;sica para assuntos referentes ao processo de defini&ccedil;&atilde;o de software. Com a&ccedil;&otilde;es frequentes, prover&aacute; acesso a diversas fontes de informa&ccedil;&atilde;o sobre o tema, bem como tornar&aacute; dispon&iacute;vel um espa&ccedil;o de colabora&ccedil;&atilde;o onde interessados podem colocar e debater opini&otilde;es sobre a mat&eacute;ria.</port>
+   <ing>&nbsp;&nbsp;This website is a basic reference for subjects related to 
+        the software definition process. With frequents updates,it will provide 
+        access to many sources of information about the theme, as well as will 
+        become avaliable a colaboration space where concerned people can dispose 
+        and discuss opinions about the subject.</ing>
+ </texto>
+
+ <texto id="011">
+   <port>O que est&aacute; dispon&iacute;vel</port>
+   <ing>What is avaliable?</ing>
+ </texto>
+
+ <texto id="012">
+   <port>&nbsp;&nbsp;O compromisso desse portal &eacute; manter-se atualizado. Sua constru&ccedil;&atilde;o s&oacute; foi poss&iacute;vel em fun&ccedil;&atilde;o dos projeto PER (PADCT) e Cientista do Nosso Estado (Faperj) que financiaram sua implanta&ccedil;&atilde;o. O portal permite acesso n&atilde;o s&oacute; a universidades e centros de pesquisa, como tamb&eacute;m a fornecedores de m&eacute;todos, t&eacute;cnicas e ferramentas.</port>
+   <ing>&nbsp;&nbsp;The website compromise is to keep up-to-date. Your construction was only 	possible because of the PER project (PADCT) and scientist from our state (Faperj) that financed your implementation. The website allows access not only to universities and research centers, as well to methods, technics and tools suppliers.</ing>
+ </texto>  
+
+ <texto id="013">
+   <port>Entre com o login e senha:</port>
+   <ing>Enter your login and password:</ing>
+ </texto>
+
+ <texto id="014">
+   <port>P&uacute;blico Alvo</port>
+   <ing>Target Public</ing>
+ </texto>
+
+ <texto id="015">
+   <port>&nbsp;&nbsp;Pesquisadores na &aacute;rea de requisitos, profissionais e estudantes.</port>
+   <ing>&nbsp;&nbsp;Researches on area of requirements, professionals and students.</ing>
+ </texto>
+
+<!-- Frame principal - O que &eacute;? (oquee_superior.htm) -->
+ <texto id="016">
+   <port>O que &eacute; Engenharia de Requisitos?</port>
+   <ing>What is Requirements Engineering?</ing>
+ </texto>
+
+<!-- Frame principal - O que &eacute;? (oquee_inferior.htm) --> 
+ <texto id="017">
+   <port>A Engenharia de Requisitos, uma sub-&aacute;rea da Engenharia de Software, estuda o processo de defini&ccedil;&atilde;o dos requisitos que o software dever&aacute; atender. A &aacute;rea surgiu em 1993 com a realiza&ccedil;&atilde;o do I International Symposium on Requirements Engineering. 
+O processo de defini&ccedil;&atilde;o de requisitos &eacute; uma interface entre os desejos e necessidades dos clientes e a posterior implementa&ccedil;&atilde;o desses requisitos em forma de software.</port>
+   <ing>The Requirements Engineering is a sub area of Software Engineering thatstudy the 
+  process of requirements definition that the software should support. The area born in 1993 with realization of the I International Symposium on Requirements Engineering. The process of requirements&acute;s definition are an interface between clients wishes and necessities and a posterior implementation of this requirements in software form.</ing>
+ </texto>
+ 
+ <texto id="018">
+   <port>Objetivo da ER</port>
+   <ing>RE Goals</ing>
+ </texto>
+ 
+ <texto id="019">
+   <port>Entender as necessidades e atender os desejos dos clientes sempre foi colocado como um dos maiores desafios da Engenharia de Software. A postura da Engenharia de Requisitos &eacute; a de prover ao Engenheiro de Software, m&eacute;todos, t&eacute;cnicas e ferramentas que auxiliem o processo de compreens&atilde;o e registro dos requisitos que o software deve atender. Diferentemente de outras sub-&aacute;reas da engenharia de software, a &aacute;rea de requisitos tem que lidar com conhecimento interdisciplinar envolvendo,muitas vezes, aspectos de ci&ecirc;ncias sociais e ci&ecirc;ncia cognitiva.</port>
+   <ing>Understand the necessities and support the clients wishes always was put as one of the biggests challenges of Software Engineering. The purpose of Requirements Engineering 
+  is to sustain methods, techniches and tools to Software Engineers that help 
+  the process of compreension and register of requirements that the software should 
+  attain. Diferent from others sub areas of Software Engineering, the requirements 
+  area have to deal with interdisciplinary knowledgement envolve, many times, 
+  social science aspects and cognitive science.</ing>
+ </texto>
+ 
+ <texto id="020">
+   <port>Quem usa?</port>
+   <ing>Who use?</ing>
+ </texto>
+ 
+ <texto id="021">
+   <port>Os profissionais de inform&aacute;tica e seus clientes quando envolvidos num processo de defini&ccedil;&atilde;o de requisitos.</port>
+   <ing>Informatic professional and their clients when envolved in a process of requirements definition.</ing>
+ </texto>  
+ 
+<!-- Frame principal - Mundo dos Requisitos (mundoREQsup.htm) -->  
+ <texto id="022">
+   <port>Mundo dos Requisitos</port>
+   <ing>World of Requiriments</ing>
+ </texto>
+ 
+<!-- Frame principal - Mundo dos Requisitos (mundoREQ2_teste.htm) --> 
+ <texto id="023">
+   <port>A s&eacute;rie WER</port>
+   <ing>WER series</ing>
+ </texto>
+ 
+ <texto id="024">
+   <port>Confer&ecirc;ncias Internacionais</port>
+   <ing>Internationals Conferences</ing>
+ </texto>
+ 
+ <texto id="025">
+   <port>Projetos</port>
+   <ing>Projects</ing>
+ </texto>
+ 
+ <texto id="026">
+   <port>A rede RENOIR</port>
+   <ing>RENOIR net</ing>
+ </texto>
+ 
+ <texto id="027">
+   <port>Estado da Pr&aacute;tica</port>
+   <ing>State of Practique</ing>
+ </texto>
+ 
+ <texto id="028">
+   <port>Grupos de Trabalho</port>
+   <ing>Work Groups</ing>
+ </texto>
+ 
+ <texto id="029">
+   <port>Peri&oacute;dicos</port>
+   <ing>Journal</ing>
+ </texto>
+
+ <texto id="030">
+   <port>Ferramentas</port>
+   <ing>Tools</ing>
+ </texto>
+
+
+<!-- Frame principal - Projeto PER (projPER_superior.htm) -->  
+ <texto id="031">
+   <port>Projeto PER</port>
+   <ing>PER Project</ing>
+ </texto>
+
+<!-- Frame principal - Projeto PER (projPER_inferior.htm) --> 
+ <texto id="032">
+   <port>"Estabelecer bases para o aumento da qualidade dos processos de produ&ccedil;&atilde;o de software atrav&eacute;s de coopera&ccedil;&atilde;o entre universidades e empresas com &ecirc;nfase na utiliza&ccedil;&atilde;o da Engenharia de Requisitos".</port>
+   <ing>"Establish bases to the increase of quality production software process throught the cooperation between universities and companies, with emphasis in the use of Requirements 
+  Engineering".</ing>
+ </texto>
+ 
+ <texto id="033">
+   <port>A plataforma procurar&aacute; dar &ecirc;nfase ao trabalho cooperativo entre os integrantes, tanto da ind&uacute;stria como da universidade de modo que se possa efetivamente 
+propor projetos cooperativos para o futuro. Confiamos que a plataforma ser&aacute; extremamente importante para propor um projeto cooperativo em bases mais bem definidas e de comum interesse entre as partes envolvidas. Al&eacute;m disso, os resultados da plataforma ser&atilde;o importantes para termos um melhor conhecimento dos problemas enfrentados pelas organiza&ccedil;&otilde;es nacionais e da possibilidade da coopera&ccedil;&atilde;o com as institui&ccedil;&otilde;es de pesquisa para minimizar esses problemas. </port>
+   <ing>The plataform will search to give emphasis to the cooperative work between the members, as much as from industries as from university in the sense that can effective 
+  propose cooperative projects for the future. We trust that the plataform will 
+  be extremely important to propose a cooperative project in bases with better 
+  definition and in common concern between the parts envolved. Beside that, the 
+  results of the plataforms will be importants to get a better knowledge of the 
+  problems confronted from nationals organizations and the possibility of cooperation 
+  with the research institutes for reduce these problems.</ing>
+ </texto>
+ 
+ <texto id="034">
+   <port>Proposta inicial</port>
+   <ing>Inicial propose</ing>
+ </texto>
+ 
+ <texto id="035">
+   <port></port>
+   <ing>(in portuguese)</ing>
+ </texto>
+ 
+ <texto id="036">
+   <port>Primeiro Workshop</port>
+   <ing>First Workshop</ing>
+ </texto>
+ 
+ <texto id="037">
+   <port>Este espa&ccedil;o &eacute; reservado somente a pessoas autorizadas.</port>
+   <ing>This space is only for autorized personal.</ing>
+ </texto>
+ 
+ <texto id="038">
+   <port>Segundo Workshop</port>
+   <ing>Second Workshop</ing>
+ </texto>
+ 
+ <texto id="039">
+   <port>Relatorio Final</port>
+   <ing>Final Report</ing>
+ </texto>
+ 
+ <texto id="040">
+   <port>Proposta de Colabora&ccedil;&atilde;o BB</port>
+   <ing>BB Colaboration Propose</ing>
+ </texto>
+ 
+ <texto id="041">
+   <port>Estado da Pr&aacute;tica</port>
+   <ing>State of Practique</ing>
+ </texto>
+
+<!-- Frame principal - Not&iacute;cias (noticias_superior.htm) -->
+ <texto id="042">
+   <port>Not&iacute;cias</port>
+   <ing>News</ing>
+ </texto>
+ 
+<!-- Frame principal - Not&iacute;cias (noticias_inferior.asp) --> 
+ <texto id="043">
+   <port>Total de not&iacute;cias:</port>
+   <ing>Total News:</ing>
+ </texto>
+ 
+ <texto id="044">
+   <port>N&atilde;o h&aacute; not&iacute;cias.</port>
+   <ing>There´s no news yet.</ing>
+ </texto> 
+ 
+<!-- Frame principal - Canal Livre (clivre.htm) -->
+ <texto id="045">
+   <port>Canal Livre</port>
+   <ing>Free Channel</ing>
+ </texto>
+ 
+ <texto id="046">
+   <port>Entre com login e senha:</port>
+   <ing>Please enter your login and password:</ing>
+ </texto>
+ 
+ <texto id="047">
+   <port>login:</port>
+   <ing>login:</ing>
+ </texto>
+ 
+ <texto id="048">
+   <port>senha:</port>
+   <ing>password:</ing>
+ </texto>
+  
+ <texto id="049">
+   <port>Confirmar</port>
+   <ing>Confirm</ing>
+ </texto>
+ 
+ <texto id="050">
+   <port>Esqueceu sua senha?</port>
+   <ing>Forgot your password?</ing>
+ </texto>
+ 
+ <texto id="051">
+   <port>Enviaremos um e-mail para lembr&aacute;-lo:</port>
+   <ing>We will send you an e-mail to remember:</ing>
+ </texto>
+ 
+ <texto id="052">
+   <port>(coloque o seu e-mail de cadastro)</port>
+   <ing>(Put here your e-mail)</ing>
+ </texto>
+ 
+ <texto id="053">
+   <port>e-mail</port>
+   <ing>e-mail</ing>
+ </texto>
+ 
+ <texto id="054">
+   <port>Enviar</port>
+   <ing>Send</ing>
+ </texto>
+ 
+ <texto id="055">
+   <port>Cadastre-se!</port>
+   <ing>Join now!</ing>
+ </texto>
+ 
+ <texto id="056">
+   <port>Efetue seu cadastro para o canal livre!</port>
+   <ing>Sign in to use the free channel!</ing>
+ </texto>
+ 
+ <texto id="057">
+   <port>Alterar senha</port>
+   <ing>Change your password</ing>
+ </texto> 
+
+<!-- Frame principal - Primeiro Workshop (login1w.htm) 
+     V&aacute;rias impress&otilde;es feitas nesta p&aacute;gina j&aacute; existem em outras, que seram reutilizadas
+-->
+ <texto id="058">
+   <port>Entrar</port>
+   <ing>Enter</ing>
+ </texto>
+ 
+<!-- Frame principal - Estado da Pr&aacute;tica (estado_da_pratica.asp) -->
+
+ <!-- Primeiro Par&aacute;grafo -->
+ <texto id="059">
+   <port>Com o objetivo de conhecer melhor o estado da pr&aacute;tica da engenharia de requisitos em organiza&ccedil;&otilde;es, estamos disponibilizando um question&aacute;rio bastante resumido que dar&aacute; uma id&eacute;ia de como sua organiza&ccedil;&atilde;o vem utilizando ou n&atilde;o os conceitos de requisitos. O objetivo maior &eacute; termos em um lugar de f&aacute;cil acesso um retrato sobre a situa&ccedil;&atilde;o do uso da engenharia de requisitos. Essa p&aacute;gina permite o acesso ao question&aacute;rio, bem como aos resultados da pesquisa.</port>
+   <ing>With the objective of better Knowing the practique state of requirements engineering
+  inside organizations, we are bringing a compact questionary that will give you an 
+  idea of how your company is using or not the concepts of requirements. The greater
+  objective is to have a picture of the situation of requirements engineering in an easy
+  access place.This page allows access to the questionary, as well as the results of the
+  research.</ing>
+ </texto>
+ 
+ <!-- Segundo Par&aacute;grafo -->
+ <texto id="060">
+   <port>Vale notar que essa &eacute; uma pesquisa on-line e sempre presente. 
+  As respostas s&atilde;o mantidas em confidencialidade j&aacute; que no banco de dados n&atilde;o guardamos o remetente da mensagem, somente os resultados globais s&atilde;o visualizados. As respostas s&atilde;o cumulativas, e ser&atilde;o mantidas no ano de 2001. Ao fim de 2001 examinaremos a necessidade ou n&atilde;o de reiniciarmos o banco de dados de respostas.</port>
+   <ing>Is good to remember that this is an on-line research and it will 
+  always be present. The answers are maintained secret, because we do not save the name of the sender in the database, only the results are seen.
+  The answers are all stored, and will be maintened in the year 2001. In the end of 
+  2001 we will examine the necessity of restarting the questionary database.</ing>
+ </texto>
+ 
+ <!-- Terceiro Par&aacute;grafo -->
+ <texto id="061">
+   <port>Portanto essa pesquisa &eacute; reflexo da pr&oacute;pria comunidade. Quanto mais informa&ccedil;&otilde;es de qualidade tivermos, melhor saberemos sobre a &aacute;rea como um todo. Mais uma vez vale lembrar a cada usu&aacute;rio dessa enquete on-line que o n&iacute;vel de qualidade de nossa base &eacute; fun&ccedil;&atilde;o fundamentalmente de cada organiza&ccedil;&atilde;o ou indiv&iacute;duo que disponibiliza as respostas aos question&aacute;rios.</port>
+   <ing>So, this research is a reflex of the community.The more good qualities answers we 
+  have, the better we will Know about the area. 
+  Is good to remember to every user of this on-line questionary that the level of 
+  quality in our database is a fundamental function of every company or person that
+  answer the questionary.</ing>
+ </texto>
+ 
+ <texto id="062">
+   <port>Question&aacute;rio</port>
+   <ing>Questionary</ing>
+ </texto>
+ 
+<!-- Frame principal - Question&aacute;rio (questionarioer.asp) -->
+ <texto id="063">
+   <port>Question&aacute;rio de Engenharia de Requisitos</port>
+   <ing>Questionary of Requirements Engineering</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 1 --> 
+ <texto id="064">
+   <port>Como voc&ecirc; acredita que o cliente percebe a entrega do sistema em rela&ccedil;&atilde;o as necessidades deles?</port>
+   <ing>How do you see the way the client perceive the delivery of the system in relation to their necessities?</ing>
+ </texto>
+ 
+ <texto id="065">
+   <port>Apresenta uma s&eacute;rie de problemas</port>
+   <ing>Have a lot of problems</ing>
+ </texto>
+ 
+ <texto id="066">
+   <port>Atende ao que foi solicitado</port>
+   <ing>Meet the spectation</ing>
+ </texto>
+  
+ <texto id="067">
+   <port>Resultado Parcial</port>
+   <ing>Parcial Result</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 2 --> 
+ <texto id="068">
+   <port>Como voc&ecirc; acredita que os clientes percebem a importancia da fase de levantamento de requisitos?</port>
+   <ing>How do you see the way the clients perceived the importance of the requirements acquisition fase?</ing>
+ </texto>
+ 
+ <texto id="069">
+   <port>Pouca valoriza&ccedil;&atilde;o</port>
+   <ing>Little valorization</ing>
+ </texto>
+ 
+ <texto id="070">
+   <port>Valoriza intensamente</port>
+   <ing>Intensive valorization</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 3 --> 
+ <texto id="071">
+   <port>Os requisitos, quando precisam ser revistos ou consultados s&atilde;o:</port>
+   <ing>The requiriments when needed to be reviewed or consulted are:</ing>
+ </texto>
+ 
+ <texto id="072">
+   <port>Dificilmente acess&iacute;veis</port>
+   <ing>Hardly accessible</ing>
+ </texto>
+ 
+ <texto id="073">
+   <port>Facilmente acess&iacute;veis</port>
+   <ing>Easily accessible</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 4 --> 
+ <texto id="074">
+   <port>Como voc&ecirc; classificaria os procedimentos de sua organiza&ccedil;&atilde;o para identificar, coletar, armazenar, manter registros sobre controle de qualidade, com base nos requisitos, de forma que possam ser recuperados?</port>
+   <ing>How do you classified the procedures of your organization to identify, to collect, to store, to keep registers about quality control based on requirements, in the way that can be recovered?</ing>
+ </texto>
+ 
+ <texto id="075">
+   <port>Dificilmente acess&iacute;veis</port>
+   <ing>Hardly accessible</ing>
+ </texto>
+ 
+ <texto id="076">
+   <port>Facilmente acess&iacute;veis</port>
+   <ing>Easily accessible</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 5 --> 
+ <texto id="077">
+   <port>De que maneira os requisitos do sistema s&atilde;o utilizados na sua organiza&ccedil;&atilde;o como base para o desenvolvimento de software?</port>
+   <ing>In what way the system requirements are used in your organization as a base for software development?</ing>
+ </texto>
+ 
+ <texto id="078">
+   <port>Pouco utilizados</port>
+   <ing>Hardly used</ing>
+ </texto>
+ 
+ <texto id="079">
+   <port>Muito utilizados</port>
+   <ing>Always used</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 6 --> 
+ <texto id="080">
+   <port>Como voc&ecirc; classifica o m&eacute;todo utilizado na sua organiza&ccedil;&atilde;o para o levantamento (elicita&ccedil;&atilde;o) de requisitos?</port>
+   <ing>How do you classify the method used in your organization for requirements acquisition?</ing>
+ </texto>
+ 
+ <texto id="081">
+   <port>Extremamente informal</port>
+   <ing>Extremaly informal</ing>
+ </texto>
+ 
+ <texto id="082">
+   <port>Muito bem definido</port>
+   <ing>Extremaly formal</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 7 --> 
+ <texto id="083">
+   <port>Durante o uso de um sistema ou durante sua constru&ccedil;&atilde;o &eacute; verificada uma altera&ccedil;&atilde;o nos requisitos. Essa altera&ccedil;&atilde;o:</port>
+   <ing>During the use of a system or during your constrution is verified an alteration in the requirements. This alteration:</ing>
+ </texto>
+ 
+ <texto id="084">
+   <port>N&atilde;o &eacute; formalmente registrada</port>
+   <ing>It&acute;s not formally registered</ing>
+ </texto>
+ 
+ <texto id="085">
+   <port>registrada no documento de requisitos.</port>
+   <ing>It&acute;s registered in the requirements document.</ing>
+ </texto>
+ 
+ <texto id="086">
+   <port>registrada, mas n&atilde;o no documento de requisitos.</port>
+   <ing>It&acute;s registered, but is not in the requirements document.</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 8 --> 
+ <texto id="087">
+   <port>Como voc&ecirc; classifica o controle de qualidade feito sobre os requisitos?</port>
+   <ing>How do you classify the quality control maded about the requirements?</ing>
+ </texto>
+ 
+ <texto id="088">
+   <port>Inexistente</port>
+   <ing>Inexistent</ing>
+ </texto>
+ 
+ <texto id="089">
+   <port>Muito bom</port>
+   <ing>Very good</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 9 --> 
+ <texto id="090">
+   <port>Quanto do tempo total de um projeto &eacute; normalmente dedicado ao levantamento de requisitos?</port>
+   <ing>How much of the total time in a project is normally dedicated for requirements acquisition?</ing>
+ </texto>
+ 
+ <!-- Question&aacute;rio/Pergunta 10 --> 
+ <texto id="091">
+   <port>Como voc&ecirc; classifica o treinamento existente em engenharia de requisitos na sua organiza&ccedil;&atilde;o?</port>
+   <ing>How do you classify the requirements engineering existent tranning in your organization?</ing>
+ </texto>
+ 
+ <texto id="092">
+   <port>Inexistente</port>
+   <ing>Inexistent</ing>
+ </texto>
+ 
+ <texto id="093">
+   <port>Muito bom</port>
+   <ing>Very good</ing>
+ </texto>
+
+ <texto id="094">
+   <port>Espor&aacute;dico</port>
+   <ing>Scattered</ing>
+ </texto>
+  
+ <!-- Question&aacute;rio/Pergunta 11 --> 
+ <texto id="095">
+   <port>Como voc&ecirc; classifica o uso de ferramentas para apoiar a defini&ccedil;&atilde;o de requisitos?</port>
+   <ing>How do you classify the tool use to support the requirements definition?</ing>
+ </texto>
+ 
+ <texto id="096">
+   <port>Nenhuma ferramenta &eacute; utilizada</port>
+   <ing>No tools are used</ing>
+ </texto>
+ 
+ <texto id="097">
+   <port>Ferramentas espec&iacute;ficas</port>
+   <ing>specific tools</ing>
+ </texto>
+ 
+ <texto id="098">
+   <port>Editores de texto</port>
+   <ing>Text editors</ing>
+ </texto> 
+ 
+ <!-- Question&aacute;rio/Pergunta 12 --> 
+ <texto id="099">
+   <port>Marque abaixo quais t&eacute;cnicas/ferramentas que s&atilde;o utilizadas em sua empresa no processo de defini&ccedil;&atilde;o de requisitos:</port>
+   <ing>Check what tecniques/tools are used in your company in the requirements definition process:</ing>
+ </texto>
+ 
+ <texto id="100">
+   <port>Cen&aacute;rios</port>
+   <ing>Sceneries</ing>
+ </texto>
+ 
+ <texto id="101">
+   <port>Casos de uso</port>
+   <ing>Use cases</ing>
+ </texto>
+ 
+ <texto id="102">
+   <port>Outros: enumere-os</port>
+   <ing>Others: specify them</ing>
+ </texto>
+
+ <!-- Question&aacute;rio/Pergunta 13 --> 
+ <texto id="103">
+   <port>Coloque aqui suas observa&ccedil;&otilde;es sobre a engenharia de requisitos:</port>
+   <ing>Write here your observation about requirements engineering:</ing>
+ </texto>
+ 
+ <texto id="104">
+   <port>Entre com o seu e-mail:</port>
+   <ing>Enter with your e-mail:</ing>
+ </texto>
+ 
+ <texto id="105">
+   <port>Enviar</port>
+   <ing>Send</ing>
+ </texto>
+ 
+<!-- Frame Principal - Cadastro de Usu&aacute;rios (cadastro0.asp) --> 
+ <texto id="106">
+   <port>Cadastro de Usu&aacute;rios</port>
+   <ing>User information</ing>
+ </texto>
+ 
+ <texto id="107">
+   <port>Coloque aqui o login e senha de sua prefer&ecirc;ncia:</port>
+   <ing>Put here the login and password that you wish:</ing>
+ </texto>
+ 
+ <texto id="108">
+   <port>Login</port>
+   <ing>Login</ing>
+ </texto>
+ 
+ <texto id="109">
+   <port>Senha</port>
+   <ing>Password</ing>
+ </texto>
+ 
+ <texto id="110">
+   <port>Repita Senha</port>
+   <ing>Repeat Password</ing>
+ </texto>
+ 
+ <texto id="111">
+   <port>Preencha os campos abaixo com os seus dados:</port>
+   <ing>Put your information on the fields above:</ing>
+ </texto>
+ 
+ <texto id="112">
+   <port>Nome</port>
+   <ing>Name</ing>
+ </texto>
+ 
+ <texto id="113">
+   <port>E-mail</port>
+   <ing>E-mail</ing>
+ </texto>
+ 
+ <texto id="114">
+   <port>Institui&ccedil;&atilde;o</port>
+   <ing>Institute</ing>
+ </texto>
+ 
+ <texto id="115">
+   <port>Enviar</port>
+   <ing>Send</ing>
+ </texto>
+ 
+<!-- Frame Principal - Cadastro de Usu&aacute;rios (cadastro1.asp) -->
+ <texto id="116">
+   <port>Cadastro efetuado com sucesso.</port>
+   <ing>Information stored successful.</ing>
+ </texto>
+ 
+ <texto id="117">
+   <port>Voltar</port>
+   <ing>Back</ing>
+ </texto>
+ 
+ <texto id="118">
+   <port>Este login j&aacute; existe. Clique <a href="javascript:window.history.go(-1)">aqui</a> para voltar e escolha outro login.</port>
+   <ing>This login already exist. Click <a href="javascript:window.history.go(-1)">here</a> to go back and choose a new login.</ing>
+ </texto>
+  
+<!-- Frame Principal - Alterar Senha (alterasenha.asp) --> 
+ <texto id="119">
+   <port>Altera&ccedil;&atilde;o de senha</port>
+   <ing>Name</ing>
+ </texto>
+ 
+ <texto id="120">
+   <port>login</port>
+   <ing>login</ing>
+ </texto>
+ 
+ <texto id="121">
+   <port>senha</port>
+   <ing>password</ing>
+ </texto>
+ 
+ <texto id="122">
+   <port>nova senha</port>
+   <ing>new password</ing>
+ </texto>
+ 
+ <texto id="123">
+   <port>repita nova senha</port>
+   <ing>repeat new password</ing>
+ </texto>
+ 
+ <texto id="124">
+   <port>Enviar</port>
+   <ing>Send</ing>
+ </texto>
+
+<!-- Frame Principal - Esqueci Senha (esquecisenha.asp) -->
+ <texto id="125">
+   <port>Envio de senha esquecida</port>
+   <ing>login</ing>
+ </texto>
+
+ <!-- Texto do e-mail --> 
+ <texto id="126">
+   <port>Esqueci minha senha</port>
+   <ing>Forgot my password</ing>
+ </texto>
+ 
+ <texto id="127">
+   <port>  Prezado </port>
+   <ing>  Dear </ing>
+ </texto>
+ 
+ <texto id="128">
+   <port> , de acordo com o solicitado estamos enviando sua senha, por favor sinta-se a vontade para mud&aacute;-la se assim o desejar. Sua senha &eacute; </port>
+   <ing> , as it was asked we are sending your password, please fell free to change if you want.Your password is  </ing>
+ </texto>
+ 
+ <texto id="129">
+   <port> , por favor anote em um lugar seguro.</port>
+   <ing> , please put it in a safe place.</ing>
+ </texto>
+ 
+<texto id="130">
+   <port>E-mail enviado com sucesso.</port>
+   <ing>E-mail successful send.</ing>
+ </texto>
+ 
+ <texto id="131">
+   <port>Voltar</port>
+   <ing>Back</ing>
+ </texto>
+ 
+<!-- Frame Principal - Canal Livre (clivre2.asp) -->
+ <texto id="132">
+   <port>Login Inv&aacute;lido</port>
+   <ing>Incorrect Login</ing>
+ </texto>
+  
+ <texto id="133">
+   <port>Por favor se cadastre ou redigite a senha.</port>
+   <ing>Please, sign in or retype your password.</ing>
+ </texto>
+ 
+ <texto id="134">
+   <port>Voltar</port>
+   <ing>Back</ing>
+ </texto>
+ 
+<!-- Frame Principal - Canal Livre (clivre_ok.asp) -->
+ <texto id="135">
+   <port>Canal Livre</port>
+   <ing>Free Channel</ing>
+ </texto>
+  
+ <texto id="136">
+   <port>nome:</port>
+   <ing>name:</ing>
+ </texto>
+ 
+ <texto id="137">
+   <port>e-mail:</port>
+   <ing>e-mail:</ing>
+ </texto>
+ 
+ <texto id="138">
+   <port>Escreva sua mensagem:</port>
+   <ing>Write your message:</ing>
+ </texto>
+ 
+ <texto id="139">
+   <port>Enviar</port>
+   <ing>Send</ing>
+ </texto>
+ 
+ <texto id="140">
+   <port>Limpar</port>
+   <ing>Clear</ing>
+ </texto>
+ 
+ <texto id="141">
+   <port>Leia as mensagens de outros usu&aacute;rios:</port>
+   <ing>Read all messages:</ing>
+ </texto>
+ 
+ <texto id="142">
+   <port>Ler mensagens</port>
+   <ing>Read messages:</ing>
+ </texto>
+ 
+ <texto id="143">
+   <port>Acesso negado!</port>
+   <ing>Access denied!</ing>
+ </texto>
+ 
+<!-- Frame Principal - Canal Livre (envio_msg.asp) -->
+ <texto id="144">
+   <port>Mensagem enviada com sucesso.</port>
+   <ing>Message send.</ing>
+ </texto>
+  
+ <texto id="145">
+   <port>Ler Mensagens</port>
+   <ing>Read messages</ing>
+ </texto>
+
+
+<!-- Frame Principal - Canal Livre (mostrar_msgs.asp) -->
+ <texto id="146">
+   <port>Data</port>
+   <ing>Date</ing>
+ </texto>
+ 
+ <texto id="147">
+   <port>Nome</port>
+   <ing>Name</ing>
+ </texto>
+ 
+ <texto id="148">
+   <port>E-mail</port>
+   <ing>E-mail</ing>
+ </texto>
+ 
+ <texto id="149">
+   <port>Mensagem</port>
+   <ing>Message</ing>
+ </texto>
+ 
+ <texto id="150">
+   <port>Pr&oacute;ximos 10</port>
+   <ing>Next 10</ing>
+ </texto>
+ 
+ <texto id="151">
+   <port>N&atilde;o h&aacute; nenhuma mensagem cadastrada.</port>
+   <ing>There is no messages.</ing>
+ </texto>
+ 
+<!-- Frame Principal - Canal Livre (mostrar_outras_msgs.asp) -->
+ <texto id="152">
+   <port>10 Anteriores</port>
+   <ing>Last 10</ing>
+ </texto>
+ 
+ <texto id="153">
+   <port>&nbsp;</port>
+   <ing>&nbsp;</ing>
+ </texto>         
+</lang>
